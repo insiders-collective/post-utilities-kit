@@ -1,6 +1,9 @@
 # Changelog
 
-## 3.0 (2023-11-23):
+## 3.1 (2023-11-29):
+Add redirect field.
+
+## 3.0 (2023-11-29):
 Change name from Post Clone & Schedule to Insiders Collective Post Utilities Kit
 
 ## 2.2 (2023-11-23):
