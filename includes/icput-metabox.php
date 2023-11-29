@@ -14,7 +14,7 @@ function icput_register_meta_boxes( $meta_boxes ) {
 			array(
 				'type' => 'text',
 				'name' => esc_html__( 'Redirect URL', 'icput' ),
-				'id'   => $prefix . 'canonical_url',
+				'id'   => $prefix . 'redirect_url',
 			),
 			array(
 				'type' => 'text',
