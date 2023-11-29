@@ -43,9 +43,9 @@ function icput_redirect() {
 
 	if ( ! empty( esc_url( $url ) ) ) {
 
-		wp_safe_redirect( $url );
-		exit;
-
+		if ( wp_redirect( $url ) ) {
+			exit;
+		}
 	}
 }
 add_action( 'wp_loaded', 'icput_redirect' );

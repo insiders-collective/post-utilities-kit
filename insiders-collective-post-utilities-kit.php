@@ -2,7 +2,7 @@
 /**
 Plugin Name: Insiders Collective Post Utilities Kit
 Description: See README for full feature set
-Version: 3.0
+Version: 3.1
 Author: Topher
 Author URI: https://mediaforge.pro
 License:
