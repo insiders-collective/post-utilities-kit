@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'bfa7d1f2766c80c6374349402937efd550072e84',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'bfa7d1f2766c80c6374349402937efd550072e84',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'composer/installers' => array(
+            'pretty_version' => 'v2.2.0',
+            'version' => '2.2.0.0',
+            'reference' => 'c29dc4b93137acb82734f672c37e029dfbd95b35',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/./installers',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'wpackagist-plugin/meta-box' => array(
+            'pretty_version' => '5.9.0',
+            'version' => '5.9.0.0',
+            'reference' => 'tags/5.9.0',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../meta-box/meta-box',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
