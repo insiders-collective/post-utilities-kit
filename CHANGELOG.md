@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.2 (2023-12-02):
+Add custome field for datetime.
+Make it so when that datetime has passed, the post Publish date gets reset to that.
+
 ## 3.1 (2023-11-29):
 Add redirect field.
 
