@@ -17,6 +17,7 @@ $includes = array(
 	'icput-update-drafts.php',
 	'icput-canonical-tag.php',
 	'icput-redirect.php',
+	'icput-reschedule.php',
 );
 foreach ( $includes as $include ) {
 	include_once 'includes/' . $include;
